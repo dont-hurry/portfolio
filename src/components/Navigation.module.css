@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 10px;
+}
+
+.container a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
