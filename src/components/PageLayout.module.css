@@ -1,0 +1,10 @@
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Debugging */
+.header canvas {
+  border: 1px solid red;
+}
