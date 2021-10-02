@@ -1,11 +1,25 @@
 .container {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 25px 10px;
+  padding: 40px 10px;
 }
 
-.container a {
+.leftContainer {
+  display: flex;
+  gap: 80px;
+}
+
+.leftContainer a {
   color: #000;
-  font-weight: bold;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.resumeButton {
+  background: black;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
   text-decoration: none;
 }

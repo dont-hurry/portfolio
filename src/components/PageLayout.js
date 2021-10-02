@@ -5,7 +5,7 @@ export default function PageLayout({ title, children }) {
   return (
     <div>
       <div className={styles.header}>
-        {title}
+        <h2 className={styles.heading}>{title}</h2>
         <Canvas />
       </div>
 
