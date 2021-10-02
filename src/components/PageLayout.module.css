@@ -8,3 +8,25 @@
   font-size: 40px;
   font-weight: 400;
 }
+
+.main {
+  margin: 50px 0;
+}
+
+.main p {
+  line-height: 1.6;
+}
+
+.main a {
+  color: #a37ef2;
+  font-weight: 500;
+  transition: 200ms;
+}
+
+.main a:hover {
+  color: #763df2;
+}
+
+.main b {
+  font-weight: 500;
+}

@@ -9,7 +9,7 @@ export default function PageLayout({ title, children }) {
         <Canvas />
       </div>
 
-      <div>{children}</div>
+      <div className={styles.main}>{children}</div>
     </div>
   );
 }
