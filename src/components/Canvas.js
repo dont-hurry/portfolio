@@ -1,10 +1,10 @@
 import { useEffect } from "react";
+import { ALL_COLORS as COLORS } from "../constants/colors";
 
 const CANVAS_SIZE = 270;
 const BLOCKS_PER_LINE = 6;
 const START_ANGLE = [0, 0.5, 1.5, 1];
 const END_ANGLE = [0.5, 1, 0, 1.5];
-const COLORS = ["#763DF2", "#A37EF2", "#05C7F2", "#F2CD5E", "#F29B30"];
 
 const drawCanvas = () => {
   const canvas = document.querySelector("canvas");

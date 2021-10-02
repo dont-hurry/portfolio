@@ -7,6 +7,22 @@
 .heading {
   font-size: 40px;
   font-weight: 400;
+  margin: 0 0 15px;
+}
+
+.iconsContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.iconsContainer svg {
+  fill: rgba(0, 0, 0, 0.75);
+  height: 20px;
+  width: 20px;
+}
+
+.iconsContainer svg:hover {
+  fill: black;
 }
 
 .main {
@@ -18,13 +34,13 @@
 }
 
 .main a {
-  color: #a37ef2;
+  color: var(--purple-light);
   font-weight: 500;
   transition: 200ms;
 }
 
 .main a:hover {
-  color: #763df2;
+  color: var(--purple);
 }
 
 .main b {
