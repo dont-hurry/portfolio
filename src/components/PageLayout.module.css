@@ -46,3 +46,8 @@
 .main b {
   font-weight: 500;
 }
+
+.main h2 {
+  font-weight: 400;
+  margin: 15px 0;
+}
