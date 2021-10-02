@@ -5,3 +5,7 @@ body {
   font-family: "Rubik", sans-serif;
   font-size: 20px;
 }
+
+body *::selection {
+  background: #f2cd5e;
+}
