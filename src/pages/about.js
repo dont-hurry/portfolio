@@ -5,9 +5,9 @@ export default function About() {
   return (
     <PageLayout title="I'm Po-Han Chen.">
       <p>
-        I'm a <b>frontend developer</b> who builds exquisite websites. I'm
-        familiar with <b>JavaScript</b> and <b>CSS</b>, and have some knowledge
-        of <b>React</b> and <b>Node.js</b>.
+        Hi, there! I'm a <b>frontend developer</b> who builds exquisite
+        websites. I'm familiar with <b>JavaScript (ES6+)</b> and <b>CSS</b>, and
+        have some knowledge of <b>React</b> and <b>Node.js</b>.
       </p>
       <p>
         In 2020, I was in the Academia Sinica and engaged in{" "}
