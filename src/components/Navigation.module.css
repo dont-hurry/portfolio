@@ -18,6 +18,16 @@
 .leftContainer a {
   color: black;
   font-weight: 500;
+  position: relative;
+}
+
+.leftContainer a:hover::before {
+  border-bottom: 3px solid black;
+  bottom: -5px;
+  content: "";
+  left: 0;
+  position: absolute;
+  width: 100%;
 }
 
 .resumeButton {

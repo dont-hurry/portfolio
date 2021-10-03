@@ -12,17 +12,13 @@
 
 .iconsContainer {
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 
 .iconsContainer svg {
-  fill: rgba(0, 0, 0, 0.75);
-  height: 20px;
-  width: 20px;
-}
-
-.iconsContainer svg:hover {
-  fill: black;
+  fill: rgba(0, 0, 0, 0.85);
+  height: 18px;
+  width: 18px;
 }
 
 .main {
