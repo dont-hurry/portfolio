@@ -9,16 +9,16 @@ const featuredProjects = [
     title: "Chazel",
     description: "A writer's portfolio website.",
     tags: ["React", "Module CSS"],
-    screenshot: null,
-    linkGitHub: null,
+    screenshot: "chazel.png",
+    linkGitHub: "https://github.com/dont-hurry/chazel",
     linkDemo: null,
   },
   {
     title: "Instagram Clone",
     description: "A clone of the Instagram website with basic functions.",
     tags: ["React", "Module CSS", "Firebase"],
-    screenshot: null,
-    linkGitHub: null,
+    screenshot: "instagram-clone.png",
+    linkGitHub: "https://github.com/dont-hurry/instagram-clone",
     linkDemo: null,
   },
   {
@@ -26,9 +26,9 @@ const featuredProjects = [
     description:
       "A website that contains an interesting personality test to promote a book.",
     tags: ["React", "RWD"],
-    screenshot: null,
+    screenshot: "zoo.png",
     linkGitHub: null,
-    linkDemo: null,
+    linkDemo: "https://www.books.com.tw/activity/2019/05/ZOO/",
   },
   {
     title: "Nerd Radio",
@@ -48,7 +48,7 @@ const noteworthyProjects = [
       "A Google Chrome extension showing how far you've scrolled. It's useful when reading long webpages.",
     tags: ["JavaScript"],
     screenshot: null,
-    linkGitHub: null,
+    linkGitHub: "https://github.com/dont-hurry/scroll-percentage",
     linkDemo: null,
   },
   {
@@ -62,13 +62,14 @@ const noteworthyProjects = [
   },
 ];
 
-function Item({ item: { title, description, tags } }) {
+function Item({ item }) {
+  const { title, description, tags, screenshot, linkGitHub, linkDemo } = item;
+
   return (
     <div className={styles.itemWrapper}>
-      <img
-        src="/images/screenshot-placeholder.jpg"
-        alt=""
+      <div
         className={styles.screenshot}
+        style={{ backgroundImage: `url(/images/screenshots/${screenshot})` }}
       />
 
       <div className={styles.textContainer}>
@@ -82,12 +83,19 @@ function Item({ item: { title, description, tags } }) {
 
         <div className={styles.titleContainer}>
           <h3>{title}</h3>
-          <a href="#" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faGithub} className={styles.icon} />
-          </a>
-          <a href="#" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faExternalLinkAlt} className={styles.icon} />
-          </a>
+          {linkGitHub && (
+            <a href={linkGitHub} target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faGithub} className={styles.icon} />
+            </a>
+          )}
+          {linkDemo && (
+            <a href={linkDemo} target="_blank" rel="noreferrer">
+              <FontAwesomeIcon
+                icon={faExternalLinkAlt}
+                className={styles.icon}
+              />
+            </a>
+          )}
         </div>
         <div className={styles.descriptionWrapper}>{description}</div>
       </div>
