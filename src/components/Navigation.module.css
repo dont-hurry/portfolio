@@ -36,3 +36,27 @@
   color: white;
   padding: 10px;
 }
+
+/* Tablet */
+@media (max-width: 768px) {
+  .leftContainer {
+    gap: 45px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 425px) {
+  .container a {
+    font-size: 16px;
+  }
+
+  .leftContainer {
+    gap: 20px;
+  }
+
+  .resumeButton {
+    background: none;
+    color: var(--purple);
+    font-weight: 500;
+  }
+}

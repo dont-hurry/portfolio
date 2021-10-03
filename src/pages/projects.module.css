@@ -62,15 +62,18 @@
 }
 
 .icon {
-  color: var(--purple-light);
-  font-size: 16px;
-}
-
-.icon:hover {
   color: var(--purple);
+  font-size: 16px;
 }
 
 .descriptionWrapper {
   line-height: 1.5;
   margin-top: 5px;
+}
+
+/* Mobile */
+@media (max-width: 425px) {
+  .itemsContainer {
+    grid-template-columns: 1fr;
+  }
 }

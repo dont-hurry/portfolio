@@ -50,3 +50,28 @@
   font-weight: 400;
   margin: 15px 0;
 }
+
+/* Tablet */
+@media (max-width: 768px) {
+  .header canvas {
+    height: 210px;
+    width: 210px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 425px) {
+  .header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .header canvas {
+    height: 180px;
+    width: 180px;
+  }
+
+  .iconsContainer {
+    display: none;
+  }
+}

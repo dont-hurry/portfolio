@@ -43,6 +43,14 @@ const featuredProjects = [
 
 const noteworthyProjects = [
   {
+    title: "Ear Beats",
+    description: "",
+    tags: ["JavaScript"],
+    screenshot: null,
+    linkGitHub: null,
+    linkDemo: null,
+  },
+  {
     title: "Scroll Percentage",
     description:
       "A Google Chrome extension showing how far you've scrolled. It's useful when reading long webpages.",
