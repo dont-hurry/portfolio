@@ -1,7 +1,7 @@
 import styles from "./PageLayout.module.css";
 import * as LINKS from "../constants/links";
-import { ReactComponent as GithubIcon } from "../icons/github.svg";
-import { ReactComponent as LinkedInIcon } from "../icons/linkedin.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Canvas from "./Canvas";
 
 export default function PageLayout({ title, children }) {
@@ -12,10 +12,10 @@ export default function PageLayout({ title, children }) {
           <h2 className={styles.heading}>{title}</h2>
           <div className={styles.iconsContainer}>
             <a href={LINKS.GITHUB} target="_blank" rel="noreferrer">
-              <GithubIcon alt="Link to GitHub" />
+              <FontAwesomeIcon icon={faGithub} className={styles.icon} />
             </a>
             <a href={LINKS.LINKEDIN} target="_blank" rel="noreferrer">
-              <LinkedInIcon alt="Link to LinkedIn" />
+              <FontAwesomeIcon icon={faLinkedin} className={styles.icon} />
             </a>
           </div>
         </div>

@@ -1,5 +1,8 @@
 import PageLayout from "../components/PageLayout";
 import styles from "./projects.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 const featuredProjects = [
   {
@@ -49,7 +52,7 @@ const noteworthyProjects = [
     linkDemo: null,
   },
   {
-    title: "BT21 Character Introduction",
+    title: "BT21 App",
     description:
       "A React Native App for introducing BT21's cartoonish characters.",
     tags: ["React Native"],
@@ -76,14 +79,15 @@ function Item({ item: { title, description, tags } }) {
             </div>
           ))}
         </div>
-        <h3>{title}</h3>
-        <div className={styles.linksContainer}>
-          {/* <a href={} target="_blank" rel="noreferrer">
-            <GithubIcon alt="" />
+
+        <div className={styles.titleContainer}>
+          <h3>{title}</h3>
+          <a href="#" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faGithub} className={styles.icon} />
           </a>
-          <a href={} target="_blank" rel="noreferrer">
-            <ExternalLinkIcon alt="" />
-          </a> */}
+          <a href="#" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faExternalLinkAlt} className={styles.icon} />
+          </a>
         </div>
         <div className={styles.descriptionWrapper}>{description}</div>
       </div>

@@ -7,18 +7,21 @@
 .heading {
   font-size: 40px;
   font-weight: 400;
-  margin: 0 0 15px;
+  margin: 0 0 10px;
 }
 
 .iconsContainer {
   display: flex;
   gap: 15px;
+  padding-left: 5px;
 }
 
-.iconsContainer svg {
-  fill: rgba(0, 0, 0, 0.85);
-  height: 18px;
-  width: 18px;
+.icon {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.icon:hover {
+  color: black;
 }
 
 .main {
@@ -29,13 +32,13 @@
   line-height: 1.6;
 }
 
-.main a {
+.main p a {
   color: var(--purple-light);
   font-weight: 500;
   transition: 200ms;
 }
 
-.main a:hover {
+.main p a:hover {
   color: var(--purple);
 }
 

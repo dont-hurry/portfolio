@@ -55,15 +55,19 @@
   font-size: 14px;
 }
 
-.linksContainer {
+.titleContainer {
+  align-items: center;
   display: flex;
   gap: 10px;
 }
 
-.linksContainer svg {
-  fill: var(--purple-light);
-  height: 14px;
-  width: 14px;
+.icon {
+  color: var(--purple-light);
+  font-size: 16px;
+}
+
+.icon:hover {
+  color: var(--purple);
 }
 
 .descriptionWrapper {
