@@ -1,14 +1,72 @@
 .container h2 {
+  font-size: 28px;
+  font-weight: 400;
   margin: 0;
 }
 
-.itemContainer {
-  border: 1px solid red;
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 10px;
+.container h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 5px 0;
 }
 
-.itemContainer img {
-  max-width: 350px;
+.itemsContainer {
+  display: grid;
+  gap: 30px 25px;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px 0;
+  width: 100%;
+}
+
+.itemWrapper {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 5px 0px;
+  display: flex;
+  flex-direction: column;
+  transition: 250ms;
+}
+
+.itemWrapper:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 5px 0px;
+}
+
+.screenshot {
+  border-radius: 5px 5px 0 0;
+  max-height: 200px;
+  object-fit: cover;
+  user-select: none;
+}
+
+.textContainer {
+  color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.tagsContainer {
+  display: flex;
+  gap: 15px;
+}
+
+.tag {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+}
+
+.linksContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.linksContainer svg {
+  fill: var(--purple-light);
+  height: 14px;
+  width: 14px;
+}
+
+.descriptionWrapper {
+  line-height: 1.5;
+  margin-top: 5px;
 }
