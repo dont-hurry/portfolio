@@ -67,8 +67,14 @@
   }
 
   .header canvas {
-    height: 180px;
-    width: 180px;
+    height: 150px;
+    margin: 0 auto;
+    width: 150px;
+  }
+
+  .heading {
+    font-size: 36px;
+    margin: 0 0 20px;
   }
 
   .iconsContainer {

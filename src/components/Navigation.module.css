@@ -60,3 +60,14 @@
     font-weight: 500;
   }
 }
+
+/* Mobile (Small) */
+@media (max-width: 320px) {
+  .container a {
+    font-size: 14px;
+  }
+
+  .leftContainer {
+    gap: 15px;
+  }
+}
