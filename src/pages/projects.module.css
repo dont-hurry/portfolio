@@ -19,20 +19,17 @@
 }
 
 .itemWrapper {
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 0 5px 0px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 2.5px 5px 0;
   display: flex;
   flex-direction: column;
   transition: 250ms;
 }
 
-.itemWrapper:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0 0 5px 0px;
-}
-
 .screenshot {
   background-size: cover;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 5px 5px 0 0;
   height: 200px;
 }
@@ -41,8 +38,8 @@
   color: rgba(0, 0, 0, 0.8);
   display: flex;
   flex-direction: column;
-  font-size: 18px;
-  padding: 15px;
+  font-size: 16px;
+  padding: 15px 15px 20px;
 }
 
 .tagsContainer {
@@ -51,12 +48,12 @@
 }
 
 .tag {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.7);
   font-size: 14px;
 }
 
 .titleContainer {
-  align-items: center;
+  align-items: baseline;
   display: flex;
   gap: 10px;
 }
@@ -64,6 +61,11 @@
 .icon {
   color: var(--purple);
   font-size: 16px;
+  opacity: 0.85;
+}
+
+.icon:hover {
+  opacity: 1;
 }
 
 .descriptionWrapper {

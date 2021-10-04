@@ -11,7 +11,7 @@ const featuredProjects = [
     tags: ["React", "Module CSS"],
     screenshot: "chazel.png",
     linkGitHub: "https://github.com/dont-hurry/chazel",
-    linkDemo: null,
+    linkDemo: "https://practical-booth-92764c.netlify.app/",
   },
   {
     title: "Instagram Clone",
@@ -19,7 +19,7 @@ const featuredProjects = [
     tags: ["React", "Module CSS", "Firebase"],
     screenshot: "instagram-clone.png",
     linkGitHub: "https://github.com/dont-hurry/instagram-clone",
-    linkDemo: null,
+    linkDemo: "https://quirky-chandrasekhar-a38dca.netlify.app/",
   },
   {
     title: "人間動物園",
@@ -27,45 +27,45 @@ const featuredProjects = [
       "A website that contains an interesting personality test to promote a book.",
     tags: ["React", "RWD"],
     screenshot: "zoo.png",
-    linkGitHub: null,
+    linkGitHub: "https://github.com/dont-hurry/zoo",
     linkDemo: "https://www.books.com.tw/activity/2019/05/ZOO/",
   },
   {
     title: "Nerd Radio",
     description:
-      "A platform for colleagues to share their favorite YouTube videos.",
-    tags: ["JavaScript", "PHP"],
-    screenshot: null,
-    linkGitHub: null,
-    linkDemo: null,
+      "A platform for colleagues to share their favorite YouTube videos during my internship.",
+    tags: ["React", "PHP"],
+    screenshot: "nerd-radio.png",
+    linkGitHub: "https://github.com/dont-hurry/nerd-radio",
+    linkDemo: "https://www.csie.ntu.edu.tw/~b02902059/nerd-radio/",
   },
 ];
 
 const noteworthyProjects = [
   {
     title: "Ear Beats",
-    description: "",
+    description: "A demo webpage displaying an animated slide effect to .",
     tags: ["JavaScript"],
-    screenshot: null,
-    linkGitHub: null,
-    linkDemo: null,
+    screenshot: "ear-beats.png",
+    linkGitHub: "https://github.com/dont-hurry/ear-beats",
+    linkDemo: "https://admiring-kalam-72669d.netlify.app/",
   },
   {
     title: "Scroll Percentage",
     description:
       "A Google Chrome extension showing how far you've scrolled. It's useful when reading long webpages.",
     tags: ["JavaScript"],
-    screenshot: null,
+    screenshot: "scroll-percentage.png",
     linkGitHub: "https://github.com/dont-hurry/scroll-percentage",
     linkDemo: null,
   },
   {
     title: "BT21 App",
     description:
-      "A React Native App for introducing BT21's cartoonish characters.",
-    tags: ["React Native"],
-    screenshot: null,
-    linkGitHub: null,
+      "A React Native (Expo) App for introducing BT21's cartoonish characters.",
+    tags: ["React Native (Expo)"],
+    screenshot: "bt21-app.png",
+    linkGitHub: "https://github.com/dont-hurry/bt21-app",
     linkDemo: null,
   },
 ];

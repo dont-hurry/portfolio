@@ -25,11 +25,11 @@
 }
 
 .main {
-  margin: 50px 0;
+  margin: 50px 0 75px;
 }
 
 .main p {
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
 .main p a {
