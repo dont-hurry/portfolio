@@ -7,9 +7,9 @@ export default function About() {
       <p>
         Hi, there! I'm a <b>frontend developer</b> who builds exquisite
         websites. I'm familiar with <b>JavaScript (ES6+)</b> and <b>CSS</b>, and
-        have some knowledge of <b>React</b> and <b>Node.js</b>. To learn more
-        about the frontend technologies I use, you can check out my{" "}
-        <Link to="/projects/">projects</Link>
+        have some knowledge of <b>React</b> and <b>Node.js</b>. You could check
+        out my <Link to="/projects/">projects</Link> to learn more about the
+        frontend technologies I use.
       </p>
       <p>
         In 2020, I was in the Academia Sinica and engaged in{" "}
@@ -35,9 +35,9 @@ export default function About() {
         <b>smart contracts</b>.
       </p>
       <p>
-        I really enjoy making websites that take aesthetics and user experience
-        into account. If you're interested in working with me, feel free to send
-        me an <a href="mailto:pohanc649@gmail.com">email</a>.
+        Making beautiful websites with great user experience gives me a sense
+        of accomplishment. If you're interested in working with me, feel free to
+        send me an <a href="mailto:pohanc649@gmail.com">email</a>.
       </p>
     </PageLayout>
   );
