@@ -29,7 +29,7 @@ export default function About() {
         <a href="https://www.ntu.edu.tw/" target="_blank" rel="noreferrer">
           National Taiwan University
         </a>
-        . Before graduation, I worked as an Intern at Microsoft, making some
+        . Before graduation, I worked as an intern at Microsoft, making some
         improvements to PowerPoint Online. Then I joined a startup company,
         responsible for blockchain-related things, especially the development of{" "}
         <b>smart contracts</b>.
