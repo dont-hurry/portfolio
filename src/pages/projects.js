@@ -45,7 +45,7 @@ const noteworthyProjects = [
   {
     title: "Ear Beats",
     description: "A demo webpage displaying an animated slide effect to .",
-    tags: ["JavaScript"],
+    tags: ["JavaScript", "RWD"],
     screenshot: "ear-beats.png",
     linkGitHub: "https://github.com/dont-hurry/ear-beats",
     linkDemo: "https://admiring-kalam-72669d.netlify.app/",
