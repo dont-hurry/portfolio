@@ -9,9 +9,14 @@ export default function Navigation() {
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
       </div>
-      <Link to="/resume" className={styles.resumeButton}>
+      <a
+        href="https://www.cakeresume.com/s--JZtlwnB0Hs1yyXcvvr8Org--/pohanc649"
+        target="_blank"
+        rel="noreferrer"
+        className={styles.resumeButton}
+      >
         Resume
-      </Link>
+      </a>
     </div>
   );
 }
