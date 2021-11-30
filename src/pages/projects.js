@@ -7,16 +7,18 @@ import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 const featuredProjects = [
   {
     title: "Chazel",
-    description: "A writer's portfolio website.",
-    tags: ["React", "Module CSS"],
+    description:
+      "A writer's portfolio website, with JWT-based user authentication and Express-based backend for creating / updating / deleting resources.",
+    tags: ["React", "Module CSS", "Express", "JWT"],
     screenshot: "chazel.png",
     linkGitHub: "https://github.com/dont-hurry/chazel",
     linkDemo: "https://practical-booth-92764c.netlify.app/",
   },
   {
     title: "Instagram Clone",
-    description: "A clone of the Instagram website with basic functions.",
-    tags: ["React", "Module CSS", "Firebase"],
+    description:
+      "A clone of the Instagram website with basic functions, using React context API and custom hooks.",
+    tags: ["React", "Module CSS", "CSS Animation", "Firebase"],
     screenshot: "instagram-clone.png",
     linkGitHub: "https://github.com/dont-hurry/instagram-clone",
     linkDemo: "https://quirky-chandrasekhar-a38dca.netlify.app/",
@@ -24,7 +26,7 @@ const featuredProjects = [
   {
     title: "人間動物園",
     description:
-      "A website that contains an interesting personality test to promote a book.",
+      "A website that contains an interesting personality test (built with React) to promote a book.",
     tags: ["React", "RWD"],
     screenshot: "zoo.png",
     linkGitHub: "https://github.com/dont-hurry/zoo",
@@ -33,7 +35,7 @@ const featuredProjects = [
   {
     title: "Nerd Radio",
     description:
-      "A platform for colleagues to share their favorite YouTube videos during my internship.",
+      "A platform for colleagues to share their favorite YouTube videos during my internship. The user interface is first built with Vanilla JavaScript, and then gradually adopted React.",
     tags: ["React", "PHP"],
     screenshot: "nerd-radio.png",
     linkGitHub: "https://github.com/dont-hurry/nerd-radio",
