@@ -8,18 +8,21 @@ const Contact = React.lazy(() => import("./pages/contact"));
 
 export default function App() {
   return (
-    <Router>
-      <div className={styles.container}>
-        <Navigation />
+    <div>
+      Unavailable
+      {/* <Router>
+        <div className={styles.container}>
+          <Navigation />
 
-        <Switch>
-          <Suspense fallback="Loading...">
-            <Route path="/" exact component={About} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/contact" component={Contact} />
-          </Suspense>
-        </Switch>
-      </div>
-    </Router>
+          <Switch>
+            <Suspense fallback="Loading...">
+              <Route path="/" exact component={About} />
+              <Route path="/projects" component={Projects} />
+              <Route path="/contact" component={Contact} />
+            </Suspense>
+          </Switch>
+        </div>
+      </Router> */}
+    </div>
   );
 }
